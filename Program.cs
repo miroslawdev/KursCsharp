@@ -16,7 +16,17 @@ namespace Aplikacja1
 
             Console.WriteLine("Wpisz swoj wiek...");
             int wiek = int.Parse(Console.ReadLine());
-            Console.WriteLine("Masz " + wiek + " lat");
+
+            if (wiek > 18)
+            {
+                Console.WriteLine("Super. Jak masz dowód to możesz kupić browce!");
+            }
+            else
+            {
+                Console.WriteLine("Musisz jeszcze poczekac zanim kupisz alko!!!");
+
+            }
+           
 
             Console.ReadLine();
             
