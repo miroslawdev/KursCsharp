@@ -14,7 +14,16 @@ namespace Aplikacja1
             //D:\CISCO\C#\projekty C#\KursCsharp\Aplikacja1\bin\Debug>Aplikacja1 Mirek
             //uruchomienie w VS wywali wyjatek.
             string name = args[0];
-            Console.WriteLine("Witaj, " + name);
+            //
+
+            foreach (var item in args)
+            {
+                Console.WriteLine("Witaj, " + item);
+
+            }
+            {
+
+            }
         }
     }
 }
