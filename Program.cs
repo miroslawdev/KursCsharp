@@ -15,11 +15,18 @@ namespace Aplikacja1
             Console.WriteLine("Czesc, " + name);
 
             Console.WriteLine("Wpisz swoj wiek...");
-            int wiek = int.Parse(Console.ReadLine());
+            // int.Try Parse instrukcja zwraca typ bool i tu wyrzuca false gdy w "Wpisz swoj wiek..." zostaną użyte
+            //litery.
+            int wiek;
+            bool result = int.TryParse(Console.ReadLine(), out wiek);
 
             if (wiek > 18)
             {
                 Console.WriteLine("Super. Jak masz dowód to możesz kupić browce!");
+            }
+            else if (result == false)
+            {
+                Console.WriteLine("Uzywaj tylko cyfr!");
             }
             else
             {
