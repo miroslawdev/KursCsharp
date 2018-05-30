@@ -9,21 +9,17 @@ namespace Aplikacja1
     class Program
     {
         static void Main(string[] args)
-        {            
-            // Uruchomic z konsoli z parametrem np:Mirek z lokalizacji -
-            //D:\CISCO\C#\projekty C#\KursCsharp\Aplikacja1\bin\Debug>Aplikacja1 Mirek
-            //uruchomienie w VS wywali wyjatek.
-            string name = args[0];
-            //
+        {
+            Console.WriteLine("Wpisz swoje imię...");
+            string name = Console.ReadLine();
+            Console.WriteLine("Czesc, " + name);
 
-            foreach (var item in args)
-            {
-                Console.WriteLine("Witaj, " + item);
+            Console.WriteLine("Wpisz swoj wiek...");
+            int wiek = int.Parse(Console.ReadLine());
+            Console.WriteLine("Masz " + wiek + " lat");
 
-            }
-            {
-
-            }
+            Console.ReadLine();
+            
         }
     }
 }
