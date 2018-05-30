@@ -1,0 +1,12 @@
+﻿[Oo]bj/
+[Bb]in/
+_ReSharper.*
+*.user
+*.vs/
+*.suo
+*.ncrunchsolution
+*.ncrunchproject
+_NCrunch*
+link repo.txt
+
+
