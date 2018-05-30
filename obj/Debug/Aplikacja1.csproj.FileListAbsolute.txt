@@ -1,0 +1,7 @@
+D:\CISCO\C#\projekty C#\KursCsharp\Aplikacja1\bin\Debug\Aplikacja1.exe.config
+D:\CISCO\C#\projekty C#\KursCsharp\Aplikacja1\bin\Debug\Aplikacja1.exe
+D:\CISCO\C#\projekty C#\KursCsharp\Aplikacja1\bin\Debug\Aplikacja1.pdb
+D:\CISCO\C#\projekty C#\KursCsharp\Aplikacja1\obj\Debug\Aplikacja1.csproj.CoreCompileInputs.cache
+D:\CISCO\C#\projekty C#\KursCsharp\Aplikacja1\obj\Debug\Aplikacja1.exe
+D:\CISCO\C#\projekty C#\KursCsharp\Aplikacja1\obj\Debug\Aplikacja1.pdb
+D:\CISCO\C#\projekty C#\KursCsharp\Aplikacja1\obj\Debug\Aplikacja1.csprojAssemblyReference.cache
