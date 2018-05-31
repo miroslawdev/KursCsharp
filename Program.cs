@@ -14,8 +14,7 @@ namespace Aplikacja1
             //for (int i = 0; i < 10; i++) - taka petla wykona sie 10 razy
             //for (;  ; ) - taka petla bedzie sie wykonywać w nieskończoność.
             for (;  ; )
-            {
-                Console.ForegroundColor = ConsoleColor.White;
+            {                
                 Console.WriteLine("Wpisz swoje imię...");
                 string name = Console.ReadLine();
                 Console.WriteLine("Czesc, " + name);
@@ -40,6 +39,10 @@ namespace Aplikacja1
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Musisz jeszcze poczekac zanim kupisz alko!!!");
                 }
+                Console.ReadKey();
+                Console.ResetColor();
+                Console.Clear();
+
             }            
         }
     }
