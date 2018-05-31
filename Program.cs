@@ -15,11 +15,12 @@ namespace Aplikacja1
             //for (;  ; ) - taka petla bedzie sie wykonywać w nieskończoność.
             for (;  ; )
             {                
-                Console.WriteLine("Wpisz swoje imię...");
+                Console.Write("Wpisz swoje imię: ");
+                //Console.Write - pozwala pisac w tej samej linii
                 string name = Console.ReadLine();
                 Console.WriteLine("Czesc, " + name);
 
-                Console.WriteLine("Wpisz swoj wiek...");
+                Console.Write("Wpisz swoj wiek: ");
                 // int.Try Parse instrukcja zwraca typ bool i tu wyrzuca false gdy w "Wpisz swoj wiek..." zostaną użyte
                 //litery.
                 int wiek;
