@@ -16,7 +16,6 @@ namespace Aplikacja1
                 Przywitanie();
                 Wiek();
                 Ustawienia();
-
             }
         }
         /// <summary>
