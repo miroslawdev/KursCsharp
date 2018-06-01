@@ -19,7 +19,9 @@ namespace Aplikacja1
 
             }
         }
-
+        /// <summary>
+        /// Czyszczenie konsoli, czyszczenie koloru txt, oczekiwanie na klawisz.
+        /// </summary>
         private static void Ustawienia()
         {
             Console.ReadKey();
@@ -27,6 +29,9 @@ namespace Aplikacja1
             Console.Clear();
         }
 
+        /// <summary>
+        /// Oblicza wiek i sprawdza pelnoletniosc
+        /// </summary>
         private static void Wiek()
         {
             Console.Write("Wpisz swoj wiek: ");
@@ -49,6 +54,9 @@ namespace Aplikacja1
             }
         }
 
+        /// <summary>
+        /// Powitanie użytkownika i prosba o imie.
+        /// </summary>
         private static void Przywitanie()
         {
             Console.Write("Wpisz swoje imię: ");
